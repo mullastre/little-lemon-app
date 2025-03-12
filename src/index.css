@@ -1,0 +1,96 @@
+/* Import necessary external styles */
+@import "react-datepicker/dist/react-datepicker.css";
+
+/* Global body styling */
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Set background color for the page */
+html {
+  background-color: #ffffff;
+}
+
+/* Code styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Global color definitions */
+:root {
+  --primary-color: #f4cf15; /* Main yellow color */
+  --secondary-color: #495E57; /* Darker background color */
+  --text-color: #333333; /* Default text color */
+  --highlight-color: #F4CE14; /* Highlight color for text */
+  --white: #ffffff; /* White color */
+}
+
+/* Text Styles */
+.display-title {
+  font-family: 'Markazi Text', serif;
+  font-weight: 500; /* Medium */
+  font-size: 64px;
+  line-height: 1em;
+}
+
+.secondary-title {
+  font-family: 'Markazi Text', serif;
+  font-weight: 500; /* Medium */
+  font-size: 50px;
+  line-height: 1em;
+}
+
+.subtitle {
+  font-family: 'Markazi Text', serif;
+  font-weight: 400; /* Regular */
+  font-size: 40px;
+  line-height: 1em;
+}
+
+.section-title {
+  font-family: 'Karla', sans-serif;
+  font-weight: 800; /* Extra Bold */
+  font-size: 16px;
+}
+
+.paragraph {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 16px;
+}
+
+.highlight-text {
+  font-family: 'Karla', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 16px;
+}
+
+/* Button Styles */
+.custom-button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border-radius: 16px;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px; 
+  font-weight: 500;
+  padding: 10px 24px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button Hover State */
+.custom-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+/* Other Custom Styles */
+input, select, textarea {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
